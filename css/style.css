@@ -1,0 +1,19 @@
+/*tamaño de elementos con selector universal*/
+* {
+    box-sizing: border-box;
+}
+
+
+#contenedor{
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/*Google fonts*/
+.fontTitulo{
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
