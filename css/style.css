@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-
+/*Contenedor*/
 #contenedor{
     width: 100%;
     max-width: 950px;
@@ -17,3 +17,36 @@
   font-weight: 600;
   font-style: normal;
 }
+
+
+/*Estilos de la cabecera*/
+header{
+    background-color: rgba(13, 38, 58, 0.87);
+}
+header h1{
+    padding: 1em;
+    text-align: center;
+    margin: 0;
+    color: aliceblue;
+}
+/*Estilos del navegador*/
+nav{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    display: block;
+    padding: 1rem;
+    background-color: steelblue;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
