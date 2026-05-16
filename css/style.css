@@ -1,4 +1,4 @@
-/*tamaño de elementos con selector universal*/
+/*Tamaño de elementos con selector universal*/
 * {
     box-sizing: border-box;
 }
@@ -21,7 +21,7 @@
 
 /*Estilos de la cabecera*/
 header{
-    background-color: rgba(13, 38, 58, 0.87);
+    background-color: rgba(7, 25, 39, 0.945);
 }
 header h1{
     padding: 1em;
@@ -49,4 +49,48 @@ nav a{
     text-decoration: none;
     text-align: center;
 }
+/*Estilos e interactividad del navegador*/
+nav a:hover {
+    background-color: rgba(11, 82, 100, 0.815);
+}
+nav a:active {
+    background-color: rgb(15, 9, 49);
+}
+
+ 
+/*Imágen de fondo y fondo del main*/
+body{
+    margin: 0;
+    padding: 0;
+
+  background-image: url("../img/fondo.png");
+}
+main {
+    padding: 4em;
+    background-color: rgb(179, 212, 243);
+}
+
+
+/*Estilos e interactividad del pie de página*/
+footer{
+    background-color: rgba(7, 25, 39, 0.945);
+    padding: 3rem;
+}
+address{
+    color: aliceblue;
+}
+/*Link de contacto*/
+address a:link {
+    color: rgb(55, 86, 172);
+}
+address a:visited{
+    color: rgb(91, 102, 196);
+}
+address a:hover {
+    background-color: rgb(23, 29, 90);
+}
+address a:active {
+    background-color: rgb(51, 57, 129);
+}
+
 
