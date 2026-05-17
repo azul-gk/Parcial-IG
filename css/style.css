@@ -21,7 +21,7 @@
 
 /*Estilos de la cabecera*/
 header{
-    background-color: rgba(7, 25, 39, 0.945);
+    background-color: rgba(2, 6, 34, 0.726);
 }
 header h1{
     padding: 1em;
@@ -30,21 +30,21 @@ header h1{
     color: aliceblue;
 }
 /*Estilos del navegador*/
-nav{
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-}
+
 nav ul{
     margin: 0;
     padding: 0;
+    background-color: rgba(7, 25, 39, 0.945);
 }
 nav li{
     display: inline-block;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 nav a{
     display: block;
     padding: 1rem;
-    background-color: steelblue;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -66,7 +66,7 @@ body{
   background-image: url("../img/fondo.png");
 }
 main {
-    padding: 4em;
+    padding: 4rem;
     background-color: rgb(238, 245, 252);
 }
 
@@ -93,4 +93,30 @@ address a:active {
     background-color: rgb(51, 57, 129);
 }
 
+.video{
+    margin-top: 4rem;
+    text-align: center;
+}
 
+p, li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2, h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 1rem;
+}
+
+/*Para la imágen con la cita*/
+.imgCita{
+    text-align: center;
+    margin: 2rem;
+}
+
+/*Para las imagenes una al lado de la otra
+Nota: código realizado con asistencia de la IA*/
+.imagenes{
+    display: flex; /*pone elementos en fila*/
+    justify-content: center; /*controla cómo se acomodan los elementos en el eje horizontal*/
+    gap: 20px; /*agrega espacio entre los hijitos del flex.*/
+}
